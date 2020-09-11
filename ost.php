@@ -10,4 +10,20 @@ if($c=="+")
     $s=$a+$b;
     echo "The sum is ".$s;
 }
+else if($c=="-")
+{
+    $s=$a-$b;
+    echo "The difference is ".$s;
+}
+else if($c=="*")
+{
+    $s=$a*$b;
+    echo "The product is ".$s;
+}
+else if($c=="/")
+{
+    $s=$a/$b;
+    echo "The division is ".$s;
+}
+else echo "Enter right operator";
 ?>
